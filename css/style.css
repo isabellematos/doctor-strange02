@@ -4,7 +4,7 @@
 
 body{
    height: 100vh;
-   background: linear-gradient(90deg,#000,#000E 30%,#000A 50%,#000000), 
+   background: linear-gradient(90deg,#000,#000E 8%,#000A 20%,#0000), 
    url(../img/background2.png);
    background-repeat: no-repeat;
    background-size: cover;
