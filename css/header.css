@@ -23,6 +23,15 @@ header{
     }
     
     .links-container a:hover{
-    background-color: red;
+    background-color: var(--accent-color);
+    }
+
+    @media (max-width: 768px){
+        header{
+            height: 70px;
+        }
+        .links-container{
+            display: none;
+        }
     }
     
