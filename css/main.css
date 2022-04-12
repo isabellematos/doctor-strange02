@@ -94,14 +94,15 @@ main{
     font-size: 1.1rem;
     font-weight: 200;
     color: white;
+    font-family: 'Mulish', sans-serif;
+    
     }
-
 
     @media(max-width:768px){
     .movie-text{
         display: none;
     }
-    .social.container{
+    .social-container{
         display: none;
     }
 
