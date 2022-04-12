@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+:root{
+    --accent-color: #FF031A;
+}
+
 header{
 
 height: 120px;
@@ -18,7 +22,7 @@ color: #fff;
 }
     
 ul,ol{
-list-style: none;   
+list-style: none;  
 }
 
 .links-container{
@@ -51,7 +55,7 @@ body{
     padding: 0 128px;
  }
 
- main{
+    main{
 
     flex-grow: 1;
     display: flex;
@@ -90,6 +94,21 @@ body{
     font-weight: 200;
     color: white;
     
+    }
 
+    .movie-title{
+    color: var(--accent-color);
+    font-size: 1.5rem;
+    font-weight: 100;
+    font-style: italic;
+    }
 
+    footer{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 100;
+    font-style: italic;
     }
