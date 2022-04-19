@@ -53,6 +53,12 @@ body{
     display: flex;
     flex-direction: column;
     padding: 0 128px;
+    animation: zoom 1.5s;
+ }
+
+ body, html{
+    position: relative;
+    overflow: hidden;
  }
 
     main{
@@ -111,4 +117,68 @@ body{
     font-family: 'Mulish', sans-serif;
     font-weight: 100;
     font-style: italic;
+    }
+
+    @media (max-width: 768px){
+        body{
+            padding: 0 30px;
+            background-color: #0009;
+            background-image: url(./imagens/imgpersonagens.png);
+            background-blend-mode: darken;
+            background-position: 90%;
+        }
+    }
+
+    @media(max-width:768px){
+        
+        .social-container{
+            display: none;
+        }
+    
+        .content-container h1{
+            font-size: 4rem;
+            line-height: 3rem;
+        }
+        .movie-title{
+            font-size: 1.5rem;
+        }
+        .content-container{
+            gap: 40px;
+            justify-content: flex-end;
+            align-items: center;
+            padding-bottom: 40px;
+        }
+    }
+     
+    @media (max-width: 768px){
+        header{
+            height: 70px;
+        }
+        .links-container{
+            background-color: black;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            flex-direction: column;
+            justify-content: center;
+            gap: 65px;
+            font-size: 2.5rem;
+            font-weight: 300;
+            transform: translate(100%);
+            transition: all 1s;
+        }
+        .menu-burger-container.show ~ .links-container{
+            transform: translate(0);
+        }
+    }
+    @keyframes zoom{
+        0%{
+            transform: scale(3);
+        }
+        100%{
+            transform: scale(1);
+        }
     }
