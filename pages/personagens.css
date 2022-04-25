@@ -140,13 +140,21 @@ body{
             line-height: 3rem;
         }
         .movie-title{
-            font-size: 1.5rem;
+            font-size: 1.3rem;
+            padding-right: 300px;
+        }
+        .movie-text{
+            padding-right: 300px;
+
         }
         .content-container{
             gap: 40px;
             justify-content: flex-end;
             align-items: center;
             padding-bottom: 40px;
+        }
+        .content-container h1{
+            padding-right: 300px;
         }
     }
      
