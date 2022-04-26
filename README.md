@@ -9,7 +9,7 @@ Projeto construido durante as aulas de LIMA, no [SENAI Jandira](https://jandira.
 ---
 
 ## Qual era o objetivo do projeto?
-O objetivo era criar uma landing page com base no design feito no figma, aprendendo a estrutura do HTML, CSS, JS  econceitos de responsividade.
+O objetivo era criar uma landing page com base no design feito no figma, aprendendo a estrutura do HTML, CSS, JS  e conceitos de responsividade.
 
 ---
 
@@ -18,7 +18,7 @@ Landing Pages são paginas com foco principal na conversão de visitantes, assim
 
 ---
 
-## Tecnologia usadas
+## Tecnologias usadas
 - HTML 5
 - CSS 2
 - Javascript
